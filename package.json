@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-clusters-example",
+  "version": "1.0.0",
+  "description": "NodeJS project example using the cluster module",
+  "main": "app.js",
+  "scripts": {
+    "multi-processes": "node app.js",
+    "single-process": "node server/index"
+  },
+  "author": "Stephane Moroso",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
